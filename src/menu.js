@@ -30,7 +30,7 @@ const menu = function() {
     contentContainer.appendChild(menuList);
 
     const picture = document.createElement("img");
-    picture.src="./../src/pizza.jpg";
+    picture.src="img/pizza.jpg";
     picture.classList.add("menu-img");
     contentContainer.appendChild(picture);
 
