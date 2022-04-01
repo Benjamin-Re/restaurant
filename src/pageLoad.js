@@ -5,7 +5,7 @@ const pageLoad = function() {
     heading.textContent="Mama Mia";
 
     const picture = document.createElement("img");
-    picture.src="./../src/image.jpg";
+    picture.src="../src/image.jpg";
     picture.classList.add("restaurant-img");
     const text = document.createElement("p");
     text.textContent="Beste Restaurante sooo guude oh";
